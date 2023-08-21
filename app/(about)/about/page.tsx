@@ -46,7 +46,7 @@ const About = () => {
             com.nishanneupane@gmail.com
           </span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <form className="p-2 flex flex-col space-y-4 w-full sm:w-[500px]">
             <input
               type="email"

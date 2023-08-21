@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 const HomePage = () => {
   const router = useRouter();
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
       <div className="py-2 flex sm:block flex-col items-center justify-center">
         <h2 className="text-white font-bold text-6xl leading-tight">
           Get Experienced with Seamless
@@ -21,13 +21,15 @@ const HomePage = () => {
           </button>
         </div>
       </div>
+      <div className="flex items-center justify-center">
         <Image
           src={"/vr4.jpg"}
           width={700}
           height={600}
           alt="vr"
-          className="w-[600px] h-[200px] sm:w-full sm:h-full rounded-md"
+          className="sm:w-full min-w-[400px] min-h-[200px] sm:h-full rounded-md"
         />
+      </div>
     </div>
   );
 };
