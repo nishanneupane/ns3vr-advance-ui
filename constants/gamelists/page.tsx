@@ -4,7 +4,7 @@ export const gamesList = [
     name: "Oculus",
     price: "Rs. 150",
     duration: "10 min",
-    image:"/vr7.jpg",
+    image:"/vr9.jpg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const gamesList = [
     name: "Car Simulator",
     price: "Rs. 300",
     duration: "5-20 min",
-    image:"/car2.png",
+    image:"/car3.jpg",
   },
   {
     id: 4,

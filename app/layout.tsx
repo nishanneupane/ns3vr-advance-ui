@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BottomBar from "@/components/BottomBar";
+import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
